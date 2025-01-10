@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+
+    margin: 0;
+    text-decoration: none;
+    background: transparent;
+}
+body{
+    background: rgb(30, 30, 30);
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+h1{
+    color:rgb(189, 161, 87);
+
+    margin-bottom: 30px;
+}
+.container{
+    margin-bottom: 30px;
+}
+.heading{
+    text-align: center;
+}
+.batan{
+    margin-left: 47%;
+    }
+    .btn{
+        border-radius: 25px;
+    }

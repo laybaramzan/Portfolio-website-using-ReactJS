@@ -1,0 +1,22 @@
+.skill-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+}
+.skills{
+    padding-left: 15%;
+}
+.summary{
+    padding-left: 15%;
+}
+.skills-sections{
+    display: flex;
+    flex-wrap:wrap ;
+    background-color: rgb(40, 40, 40);
+    
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.skills-para{
+padding-left: 3%;
+}

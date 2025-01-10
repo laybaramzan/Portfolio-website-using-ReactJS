@@ -1,0 +1,25 @@
+.logo{
+height: 70px;
+width: 70px;
+}
+.navbar{
+    background: rgb(30, 30, 30);
+    
+}
+.navbar-nav{
+    margin-left: auto;
+   
+}
+.nav-item{
+    margin-left: 30px;
+    cursor: pointer;
+}
+li{
+    font-weight: 500;
+}
+.nav-item:hover{
+border-bottom: 3px solid rgb(189, 161, 87);
+
+color: rgb(189, 161, 87);
+
+}
