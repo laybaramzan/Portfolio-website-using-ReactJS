@@ -2,15 +2,12 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
 import "./works.css";
-import proj1 from "../../assets/proj1.png";
-import proj2 from "../../assets/proj6.png";
-import proj3 from "../../assets/proj3.png";
-import proj4 from "../../assets/proj4.png";
-import proj5 from "../../assets/proj5.png";
-import proj6 from "../../assets/proj2.png";
+import proj1 from "../../assets/prescripto.PNG";
+import proj2 from "../../assets/shopper.PNG";
+import proj3 from "../../assets/giftos.PNG";
+import proj4 from "../../assets/company.PNG";
 
 const Works = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 1000, // Animation duration in milliseconds
@@ -20,8 +17,8 @@ const Works = () => {
   }, []);
 
   return (
-    <div className="container" id="portfolio">
-      <div className="row">
+    <div className="container text-center my-4">
+      <div className="row g-4">
         <h1 className="heading">My Portfolio</h1>
         <p className="text-center portfolio-desc">
           I take pride in paying attention to the smallest detail and making
@@ -29,26 +26,59 @@ const Works = () => {
           experience to help businessses achieve their goal and create a strong
           online presence.
         </p>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-          <img src={proj1} className="projimg" data-aos="zoom-in"></img>
+        <div className="col-md-3 col-sm-6">
+          <a
+            href="https://doctors-appointment-booking-website.vercel.app/"
+            target="_blank"
+          >
+            <img
+              src={proj1}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Doctors Appointment"
+            />
+          </a>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-          <img src={proj3} className="projimg" data-aos="zoom-in"></img>
+
+        <div className="col-md-3 col-sm-6">
+          <a href="https://my-online-bookstore-phi.vercel.app/" target="_blank">
+            <img
+              src={proj2}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Online Bookstore"
+            />
+          </a>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-          <img src={proj5} className="projimg" data-aos="zoom-in"></img>
+
+        <div className="col-md-3 col-sm-6">
+          <a
+            href="https://gift-shop-website.vercel.app/index.html?"
+            target="_blank"
+          >
+            <img
+              src={proj3}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Gift Shop"
+            />
+          </a>
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-          <img src={proj2} className="projimg" data-aos="zoom-in"></img>
-        </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-          <img src={proj4} className="projimg" data-aos="zoom-in"></img>
-        </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
-          <img src={proj6} className="projimg"data-aos="zoom-in"></img>
+
+        <div className="col-md-3 col-sm-6">
+          <a
+            href="https://company-website-iota-eight.vercel.app/#PORTFOLIO"
+            target="_blank"
+          >
+            <img
+              src={proj4}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Company Website"
+            />
+          </a>
         </div>
       </div>
-      <button className="btn btn-light batan">See More</button>
     </div>
   );
 };
