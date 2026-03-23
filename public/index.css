@@ -18,7 +18,10 @@ h1{
     margin-bottom: 30px;
 }
 .subheading{
-
+text-align: left;
+    color: rgb(189, 161, 87);
+    margin-top: 60px;
+    margin-bottom: 40px;
    
 }
 .container{
