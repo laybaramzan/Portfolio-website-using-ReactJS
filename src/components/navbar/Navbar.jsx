@@ -31,9 +31,9 @@ const Navbar = () => {
               <li className="nav-item link3">
                 <Link to="portfolio">Portfolio</Link>
               </li>
-              <li className="nav-item link4">
+              {/* <li className="nav-item link4">
                 <Link to="clients">Clients</Link>
-              </li>
+              </li> */}
             </ul>
             <Link to="contact"><button className="btn btn-light ">Contact Me</button></Link>
           </div>

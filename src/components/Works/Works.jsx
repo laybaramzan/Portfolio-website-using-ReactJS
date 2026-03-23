@@ -17,7 +17,7 @@ const Works = () => {
   }, []);
 
   return (
-    <div className="container text-center my-4">
+    <div className="container text-center my-4" id="portfolio">
       <div className="row g-4">
         <h1 className="heading">My Portfolio</h1>
         <p className="text-center portfolio-desc">
@@ -26,7 +26,8 @@ const Works = () => {
           experience to help businessses achieve their goal and create a strong
           online presence.
         </p>
-        <div className="col-md-3 col-sm-6">
+        <h5 className="subheading">Custom Shopify Store Design & Development:</h5>
+        <div className="col-md-4 col-sm-6">
           <a
             href="https://doctors-appointment-booking-website.vercel.app/"
             target="_blank"
@@ -40,7 +41,7 @@ const Works = () => {
           </a>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-md-4 col-sm-6">
           <a href="https://my-online-bookstore-phi.vercel.app/" target="_blank">
             <img
               src={proj2}
@@ -51,7 +52,7 @@ const Works = () => {
           </a>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-md-4 col-sm-6">
           <a
             href="https://gift-shop-website.vercel.app/index.html?"
             target="_blank"
@@ -65,7 +66,87 @@ const Works = () => {
           </a>
         </div>
 
-        <div className="col-md-3 col-sm-6">
+        <div className="col-md-4 col-sm-6">
+          <a
+            href="https://company-website-iota-eight.vercel.app/#PORTFOLIO"
+            target="_blank"
+          >
+            <img
+              src={proj4}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Company Website"
+            />
+          </a>
+        </div>
+        <div className="col-md-4 col-sm-6">
+          <a
+            href="https://gift-shop-website.vercel.app/index.html?"
+            target="_blank"
+          >
+            <img
+              src={proj3}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Gift Shop"
+            />
+          </a>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
+          <a
+            href="https://company-website-iota-eight.vercel.app/#PORTFOLIO"
+            target="_blank"
+          >
+            <img
+              src={proj4}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Company Website"
+            />
+          </a>
+        </div>
+        <h5 className="subheading">Frontend Web Applications (React.js, JavaScript & Modern CSS):</h5>
+        <div className="col-md-4 col-sm-6">
+          <a
+            href="https://doctors-appointment-booking-website.vercel.app/"
+            target="_blank"
+          >
+            <img
+              src={proj1}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Doctors Appointment"
+            />
+          </a>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
+          <a href="https://my-online-bookstore-phi.vercel.app/" target="_blank">
+            <img
+              src={proj2}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Online Bookstore"
+            />
+          </a>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
+          <a
+            href="https://gift-shop-website.vercel.app/index.html?"
+            target="_blank"
+          >
+            <img
+              src={proj3}
+              className="img-fluid rounded shadow zoom-effect"
+              data-aos="zoom-in"
+              alt="Gift Shop"
+            />
+          </a>
+        </div>
+
+        <div className="col-md-4 col-sm-6">
           <a
             href="https://company-website-iota-eight.vercel.app/#PORTFOLIO"
             target="_blank"

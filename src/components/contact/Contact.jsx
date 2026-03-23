@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <div className="container ">
       <div className="row">
-        <h1 className="heading" id="clients">
+        {/* <h1 className="heading" id="clients">
           My Clients
         </h1>
         <p className="client-desc text-center">
@@ -81,7 +81,7 @@ const Contact = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <h1 className="heading mt-5" id="contact" data-aos="fade-up">
           Contact Me
         </h1>
@@ -112,7 +112,7 @@ const Contact = () => {
 
           <input className="btn btn-light batan" type="submit" value="Submit" />
         </form>
-        <div className=" social-media">
+        {/* <div className=" social-media">
           <a href="https://www.facebook.com/">
             <img src={fb} className="socialmedia "></img>
           </a>
@@ -125,7 +125,7 @@ const Contact = () => {
           <a href="https://www.instagram.com/">
             <img src={insta} className="socialmedia "></img>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

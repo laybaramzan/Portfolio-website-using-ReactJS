@@ -5,6 +5,7 @@ import "aos/dist/aos.css"; // Import AOS CSS
 import skill1 from "../../assets/ui-ux.png";
 import skill2 from "../../assets/websitedesign.jpeg";
 import skill3 from "../../assets/appdesign.png";
+import skill4 from "../../assets/cms.jfif";
 const Skills = () => {
 
   useEffect(() => {
@@ -30,32 +31,38 @@ const Skills = () => {
           </p>
           <div className="skills">
             <div className="d-flex skills-sections">
-              <img src={skill1} className="skill-img"></img>
-              <div className="skills-para">
-                <b>UI/UX design</b>
+              <img src={skill4} className="skill-img col-2"></img>
+              <div className="skills-para col-10">
+                <b>CMS Development</b>
                 <div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eligendi, facere!
+                  Build and customize dynamic websites using CMS platforms like Shopify and Wordpress.
                 </div>
               </div>
             </div>
             <div className="d-flex skills-sections">
-              <img src={skill2} className="skill-img"></img>
-              <div className="skills-para">
+              <img src={skill2} className="skill-img col-2"></img>
+              <div className="skills-para col-10">
                 <b>Frontend Web Development</b>
                 <div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eligendi, facere!
+                  Develop responsive and interactive web applications using React.js, Tailwind CSS, and modern JavaScript (JSX).
+                </div>
+              </div>
+            </div>
+            <div className="d-flex skills-sections">
+              <img src={skill1} className="skill-img col-2"></img>
+              <div className="skills-para col-10">
+                <b>UI/UX design</b>
+                <div>
+                  Design intuitive, visually appealing user interfaces and experiences using Figma and Canva.
                 </div>
               </div>
             </div>
             <div className=" skills-sections">
-              <img src={skill3} className="skill-img"></img>
-              <div className="skills-para">
+              <img src={skill3} className="skill-img col-2"></img>
+              <div className="skills-para col-10">
                 <b>MS Office</b>
                 <div>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Eligendi, facere!
+                  Create professional documents, presentations, and spreadsheets for business and academic use.
                 </div>
               </div>
             </div>
