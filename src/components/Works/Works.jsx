@@ -2,10 +2,16 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
 import "./works.css";
-import proj1 from "../../assets/prescripto.PNG";
-import proj2 from "../../assets/shopper.PNG";
-import proj3 from "../../assets/giftos.PNG";
-import proj4 from "../../assets/company.PNG";
+import proj1 from "../../assets/prescripto.jpeg";
+import proj2 from "../../assets/shopper.jpeg";
+import proj3 from "../../assets/gifto.jpeg";
+import proj4 from "../../assets/company.jpeg";
+import proj5 from "../../assets/clifton.jpeg";
+import proj6 from "../../assets/belfor.jpeg";
+import proj7 from "../../assets/printdecor.jpeg";
+import proj8 from "../../assets/gamebreaker.jpeg";
+import proj9 from "../../assets/kaveolah.jpeg";
+import proj10 from "../../assets/orthorejuv.jpeg";
 
 const Works = () => {
   useEffect(() => {
@@ -28,38 +34,76 @@ const Works = () => {
         </p>
         <h5 className="subheading">Custom Shopify Store Design & Development:</h5>
         <div className="col-md-4 col-sm-6">
+  <div className="project-card">
+    <a href="https://laiba-ramzan.myshopify.com/" target="_blank" rel="noreferrer">
+      <img
+        src={proj5}
+        className="img-fluid rounded shadow projimg"
+        alt="Shopify Store"
+      />
+
+      <div className="overlay">
+        <p>Password: <strong>clifton</strong></p>
+      </div>
+    </a>
+  </div>
+</div>
+
+        <div className="col-md-4 col-sm-6">
+  <div className="project-card">
+    <a href="https://belforart.com/" target="_blank" rel="noreferrer">
+      <img
+        src={proj6}
+        className="img-fluid rounded shadow projimg"
+        alt="Shopify Store"
+      />
+
+      <div className="overlay">
+        <p>Password: <strong>belfor@123</strong></p>
+      </div>
+    </a>
+  </div>
+</div>
+
+        <div className="col-md-4 col-sm-6">
+  <div className="project-card">
+    <a href="https://printdecor-com-au.myshopify.com/" target="_blank" rel="noreferrer">
+      <img
+        src={proj7}
+        className="img-fluid rounded shadow projimg"
+        alt="Shopify Store"
+      />
+
+      <div className="overlay">
+        <p>Password: <strong>1122</strong></p>
+      </div>
+    </a>
+  </div>
+</div>
+
+       <div className="col-md-4 col-sm-6">
+  <div className="project-card">
+    <a href="https://gamebreaker-com.myshopify.com/" target="_blank" rel="noreferrer">
+      <img
+        src={proj8}
+        className="img-fluid rounded shadow projimg"
+        alt="Shopify Store"
+      />
+
+      <div className="overlay">
+        <p>Password: <strong>biweam</strong></p>
+      </div>
+    </a>
+  </div>
+</div>
+        <div className="col-md-4 col-sm-6">
           <a
-            href="https://doctors-appointment-booking-website.vercel.app/"
+            href="https://kaveolah.com/"
             target="_blank"
           >
             <img
-              src={proj1}
-              className="img-fluid rounded shadow zoom-effect"
-              data-aos="zoom-in"
-              alt="Doctors Appointment"
-            />
-          </a>
-        </div>
-
-        <div className="col-md-4 col-sm-6">
-          <a href="https://my-online-bookstore-phi.vercel.app/" target="_blank">
-            <img
-              src={proj2}
-              className="img-fluid rounded shadow zoom-effect"
-              data-aos="zoom-in"
-              alt="Online Bookstore"
-            />
-          </a>
-        </div>
-
-        <div className="col-md-4 col-sm-6">
-          <a
-            href="https://gift-shop-website.vercel.app/index.html?"
-            target="_blank"
-          >
-            <img
-              src={proj3}
-              className="img-fluid rounded shadow zoom-effect"
+              src={proj9}
+              className="img-fluid rounded shadow zoom-effect projimg"
               data-aos="zoom-in"
               alt="Gift Shop"
             />
@@ -68,39 +112,12 @@ const Works = () => {
 
         <div className="col-md-4 col-sm-6">
           <a
-            href="https://company-website-iota-eight.vercel.app/#PORTFOLIO"
+            href="https://www.shoporthorejuv.com/"
             target="_blank"
           >
             <img
-              src={proj4}
-              className="img-fluid rounded shadow zoom-effect"
-              data-aos="zoom-in"
-              alt="Company Website"
-            />
-          </a>
-        </div>
-        <div className="col-md-4 col-sm-6">
-          <a
-            href="https://gift-shop-website.vercel.app/index.html?"
-            target="_blank"
-          >
-            <img
-              src={proj3}
-              className="img-fluid rounded shadow zoom-effect"
-              data-aos="zoom-in"
-              alt="Gift Shop"
-            />
-          </a>
-        </div>
-
-        <div className="col-md-4 col-sm-6">
-          <a
-            href="https://company-website-iota-eight.vercel.app/#PORTFOLIO"
-            target="_blank"
-          >
-            <img
-              src={proj4}
-              className="img-fluid rounded shadow zoom-effect"
+              src={proj10}
+              className="img-fluid rounded shadow zoom-effect projimg"
               data-aos="zoom-in"
               alt="Company Website"
             />
@@ -114,7 +131,7 @@ const Works = () => {
           >
             <img
               src={proj1}
-              className="img-fluid rounded shadow zoom-effect"
+              className="img-fluid rounded shadow zoom-effect projimg"
               data-aos="zoom-in"
               alt="Doctors Appointment"
             />
@@ -125,7 +142,7 @@ const Works = () => {
           <a href="https://my-online-bookstore-phi.vercel.app/" target="_blank">
             <img
               src={proj2}
-              className="img-fluid rounded shadow zoom-effect"
+              className="img-fluid rounded shadow zoom-effect projimg"
               data-aos="zoom-in"
               alt="Online Bookstore"
             />
@@ -139,7 +156,7 @@ const Works = () => {
           >
             <img
               src={proj3}
-              className="img-fluid rounded shadow zoom-effect"
+              className="img-fluid rounded shadow zoom-effect projimg"
               data-aos="zoom-in"
               alt="Gift Shop"
             />
@@ -153,7 +170,7 @@ const Works = () => {
           >
             <img
               src={proj4}
-              className="img-fluid rounded shadow zoom-effect"
+              className="img-fluid rounded shadow zoom-effect projimg"
               data-aos="zoom-in"
               alt="Company Website"
             />
