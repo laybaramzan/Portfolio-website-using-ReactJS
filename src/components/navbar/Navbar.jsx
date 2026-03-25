@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import logo from "../../assets/images.png";
@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="container">
       <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          <img src={logo} className="logo" />
+          <img src={logo} className="logo" alt=""/>
           <button
             className="navbar-toggler bg-light"
             type="button"

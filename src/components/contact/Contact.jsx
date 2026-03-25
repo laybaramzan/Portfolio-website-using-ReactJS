@@ -1,13 +1,5 @@
-import React, { useRef } from "react";
+import  { useRef } from "react";
 import "./contact.css";
-import walmart from "../../assets/walmart.png";
-import adobe from "../../assets/adobe.png";
-import microsoft from "../../assets/microsoft.png";
-import facebook from "../../assets/facebook.png";
-import fb from "../../assets/fb.png";
-import twitter from "../../assets/twitter.png";
-import yt from "../../assets/yt.png";
-import insta from "../../assets/insta.jpg";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {

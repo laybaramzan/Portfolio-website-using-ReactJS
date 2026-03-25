@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import "./skills.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
@@ -31,7 +31,7 @@ const Skills = () => {
           </p>
           <div className="skills">
             <div className="d-flex skills-sections">
-              <img src={skill4} className="skill-img col-2"></img>
+              <img src={skill4} className="skill-img col-2" alt=""></img>
               <div className="skills-para col-10">
                 <b>CMS Development</b>
                 <div>
@@ -40,7 +40,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="d-flex skills-sections">
-              <img src={skill2} className="skill-img col-2"></img>
+              <img src={skill2} className="skill-img col-2" alt=""></img>
               <div className="skills-para col-10">
                 <b>Frontend Web Development</b>
                 <div>
@@ -49,7 +49,7 @@ const Skills = () => {
               </div>
             </div>
             <div className="d-flex skills-sections">
-              <img src={skill1} className="skill-img col-2"></img>
+              <img src={skill1} className="skill-img col-2" alt=""></img>
               <div className="skills-para col-10">
                 <b>UI/UX design</b>
                 <div>
@@ -58,7 +58,7 @@ const Skills = () => {
               </div>
             </div>
             <div className=" skills-sections">
-              <img src={skill3} className="skill-img col-2"></img>
+              <img src={skill3} className="skill-img col-2" alt=""></img>
               <div className="skills-para col-10">
                 <b>MS Office</b>
                 <div>

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import  { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS CSS
 import "./works.css";
@@ -100,6 +100,7 @@ const Works = () => {
           <a
             href="https://kaveolah.com/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={proj9}
@@ -114,6 +115,7 @@ const Works = () => {
           <a
             href="https://www.shoporthorejuv.com/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={proj10}
@@ -128,6 +130,7 @@ const Works = () => {
           <a
             href="https://doctors-appointment-booking-website.vercel.app/"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={proj1}
@@ -139,7 +142,7 @@ const Works = () => {
         </div>
 
         <div className="col-md-4 col-sm-6">
-          <a href="https://my-online-bookstore-phi.vercel.app/" target="_blank">
+          <a href="https://my-online-bookstore-phi.vercel.app/" target="_blank" rel="noreferrer">
             <img
               src={proj2}
               className="img-fluid rounded shadow zoom-effect projimg"
@@ -153,6 +156,7 @@ const Works = () => {
           <a
             href="https://gift-shop-website.vercel.app/index.html?"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={proj3}
@@ -167,6 +171,7 @@ const Works = () => {
           <a
             href="https://company-website-iota-eight.vercel.app/#PORTFOLIO"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               src={proj4}
