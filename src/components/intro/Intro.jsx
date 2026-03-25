@@ -38,7 +38,7 @@ window.open(resumeUrl,"_blank");
           <button className="btn btn-light" onClick={handledownload}>Download Resume</button>
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  " data-aos="fade-left">
-          <img src={women} className="women" ></img>
+          <img src={women} className="women" alt=""/>
         </div>
       </div>
     </div>
